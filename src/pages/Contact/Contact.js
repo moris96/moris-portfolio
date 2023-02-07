@@ -10,8 +10,14 @@ export default function Contact(){
 
         <h1 className="socials">Socials</h1>
         <div className="socials">
+            <a className="linkden" href="https://www.linkedin.com/in/moris-khoudari-abady/" target="_blank">linkedin</a><br/>
+            <br/><a className="github" href="https://github.com/moris96" target="_blank">Github</a>
+
+
+{/* 
+            
             <button className="linkden-btn"><img className="linkden" src="https://cdn3.iconfinder.com/data/icons/sociocons/256/linkedin-sociocon.png" alt="linkden" /></button>
-            <button className="github-btn"><img className="github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github" /></button>
+            <button className="github-btn"><img className="github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github" /></button> */}
         </div>
     </>
     )

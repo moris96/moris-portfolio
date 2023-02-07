@@ -4,28 +4,33 @@
 }
 
 
+/* about page */
+
+
+
+
 
 /* contact page */
-/* social media buttons for contact page */
-.linkden-btn {
-    background-color: blue;
-    border-radius: 1rem;
-}
-
 .linkden {
-    width: 100px;
-    height: 100px;
+    background-color: #f44336;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
-
-.github-btn {
-    background-color: grey;
-    border-radius: 1rem;
-}
-
 .github {
-    width: 100px;
-    height: 100px;
+    background-color: #f44336;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 
-/* about page */
+/* projects page */
+.project1 {
+    width: 500px;
+    height: 500px;
+}
