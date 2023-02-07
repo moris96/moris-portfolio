@@ -5,13 +5,13 @@ import NavBar from "../../components/NavBar/NavBar";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
+import Main from "../Main/Main";
 
 
 
 function App() {
   return (
     <main className="App">
-      <h1>Moris Portfolio!</h1>
 
       <section className="navBarContainer">
         <Popup trigger={<button className="nav-btn">Navigation Bar</button>} position="right center">
@@ -22,6 +22,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Main />} />
       </Routes>
 
     </main>

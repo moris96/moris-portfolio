@@ -1,3 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/league-spartan');
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+
 
 /* contact page */
 /* social media buttons for contact page */
@@ -22,11 +28,4 @@
 }
 
 
-/* .navBarContainer {
-    display: flex;
-    vertical-align: baseline;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: green;
-} */
+/* about page */
