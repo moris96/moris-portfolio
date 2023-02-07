@@ -1,0 +1,32 @@
+
+/* contact page */
+/* social media buttons for contact page */
+.linkden-btn {
+    background-color: blue;
+    border-radius: 1rem;
+}
+
+.linkden {
+    width: 100px;
+    height: 100px;
+}
+
+.github-btn {
+    background-color: grey;
+    border-radius: 1rem;
+}
+
+.github {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* .navBarContainer {
+    display: flex;
+    vertical-align: baseline;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: green;
+} */
