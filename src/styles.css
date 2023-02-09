@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #525252;
+    background-color: #363131;
 }
 
 a{
@@ -16,16 +16,12 @@ a:hover {
     color: blue;
 }
 
-/* .navBarContainer {
-    position: absolute;
-    left: 10%;
-} */
-
 
 /* popup for navbar */
 .popup-content{
     margin: auto;
-    background: transparent;
+    /* background: transparent; */
+    background: #363131;
     width: 50%;
     padding: 5px;
 }
@@ -49,8 +45,10 @@ a:hover {
 
 
 
-
 /* about page */
+
+
+
 
 
 
@@ -88,6 +86,10 @@ a:hover {
 
 
 /* projects page */
+.fun-fact{
+    text-align: center;
+    color: ghostwhite;
+}
 .portfolio-pg{
     color: ghostwhite;
     text-align: center;
@@ -96,6 +98,13 @@ a:hover {
     color: ghostwhite;
     text-align: center;
 }
+
+
+
+
+
+
+
 
 /* .projects-pics{
     flex-wrap: wrap;
@@ -109,7 +118,6 @@ img{
     right: 0;
     bottom: 0;
 }
-
 .p1{
     position: relative;
     left: 17%;
@@ -120,15 +128,8 @@ img{
 }
 .p3{
     position: relative;
-    left: 45%;
+    left: 43%;
 }
-
-
-/* a{
-    margin-right: 10px;
-    padding: 10px;
-} */
-
 .project1 {
     width: 500px;
     height: 500px;
@@ -140,5 +141,39 @@ img{
 .capstone{
     width: 500px;
     height: 500px;
+}
+.p1-about{
+    position: absolute;
+    left: 15%;
+    top: 77%;
+}
+.p1-info{
+    color: ghostwhite;
+}
+.tutorial{
+    text-align: center;
+}
+.rules{
+    text-align: center;
+}
+.p2-about{
+    position: absolute;
+    left: 49%;
+    top: 77%;
+}
+.p2-info{
+    color: ghostwhite;
+}
+.tumble-about{
+    text-align: center;
+}
+
+.p3-about{
+    position: absolute;
+    left: 72%;
+    top: 77%;
+}
+.p3-info{
+    color: ghostwhite;
 }
 

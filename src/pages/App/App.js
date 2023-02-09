@@ -5,7 +5,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
-import Main from "../Main/Main";
+// import Main from "../Main/Main";
 
 
 
@@ -20,9 +20,9 @@ function App() {
       </section>
       <Routes>
         <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<About />} />
       </Routes>
 
     </main>
