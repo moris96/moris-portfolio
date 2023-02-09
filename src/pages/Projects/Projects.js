@@ -39,11 +39,11 @@ export default function Projects(){
             <Popup trigger={<button className="p2-about">About: tumblE</button>} position="right center">
                 <div className="p2-info">
                     <p>This full-stack project is a modern re-imagining of Tumblr.com. It includes a full suite of CRUD (Create, Read, Update, Delete) capabilities, allowing you to easily create, edit, view, and delete posts with ease.</p>
-                    <ol className="tumble-about">
+                    <span className="tumble-about">
                         <p>Dummy Account to login:</p>
                         <li>Email: green@green.com</li>
                         <li>Password: green123</li>
-                    </ol>
+                    </span>
                 </div>
             </Popup>
 

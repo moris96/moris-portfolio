@@ -46,7 +46,34 @@ a:hover {
 
 
 /* about page */
-
+.me-photo{
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+    left: 43%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+.hello{
+    color: ghostwhite;
+    text-align: center;
+}
+.brand-statment{
+    color: ghostwhite;
+    text-align: center;
+}
+.exp-btn{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+.skills{
+    color: ghostwhite;
+    text-align: center;
+}
 
 
 
@@ -98,17 +125,6 @@ a:hover {
     color: ghostwhite;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-/* .projects-pics{
-    flex-wrap: wrap;
-} */
 img{
     flex-wrap: wrap;
     padding: 10px;
