@@ -88,7 +88,57 @@ a:hover {
 
 
 /* projects page */
+.portfolio-pg{
+    color: ghostwhite;
+    text-align: center;
+}
+.portfolio-expl{
+    color: ghostwhite;
+    text-align: center;
+}
+
+/* .projects-pics{
+    flex-wrap: wrap;
+} */
+img{
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.p1{
+    position: relative;
+    left: 17%;
+}
+.p2{
+    position: relative;
+    left: 31%;
+}
+.p3{
+    position: relative;
+    left: 45%;
+}
+
+
+/* a{
+    margin-right: 10px;
+    padding: 10px;
+} */
+
 .project1 {
     width: 500px;
     height: 500px;
 }
+.groupProject{
+    width: 500px;
+    height: 500px;
+}
+.capstone{
+    width: 500px;
+    height: 500px;
+}
+
