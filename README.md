@@ -1,5 +1,3 @@
 # Moris Khoudari's portfolio! 
 
-## About: {update about section once done}
-
-### {add netlify live link once deployed}
+### Live link: [click Me!](https://moris-khoudari-portfolio.netlify.app/)
