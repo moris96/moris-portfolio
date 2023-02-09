@@ -42,9 +42,6 @@ a:hover {
 
 
 
-
-
-
 /* about page */
 .me-photo{
     flex-wrap: wrap;
@@ -78,18 +75,18 @@ a:hover {
 
 
 
-
-
-
 /* contact page */
 .get-in-touch{
     color: ghostwhite;
+    text-align: center;
 }
 .lets-talk{
     color: ghostwhite;
+    text-align: center;
 }
 .socials {
     color: ghostwhite;
+    text-align: center;
 }
 .linkden {
     background-color: #f44336;
