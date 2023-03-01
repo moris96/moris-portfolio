@@ -12,7 +12,7 @@ export default function Projects(){
             <div className="projs-names">
                 <a className="p1" href="https://moris96.github.io/tower-defense-game/index.html" target="_blank">Game: Soldiers vs Meme Zombies!</a>
                 <a className="p2" href="https://tumble.herokuapp.com/" target="_blank">Tumble: tumblr.com clone</a>
-                <a className="p3" href="https://timely-lollipop-c213d5.netlify.app/" target="_blank">Game: Pokemon Game Clone in React.js!</a>
+                <a className="p3" href="https://pokemon-clone-game.netlify.app/" target="_blank">Game: Pokemon Game Clone in React.js!</a>
             </div>
             
             
