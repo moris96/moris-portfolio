@@ -32,30 +32,14 @@ export default function About(){
                     <li>MVC Patterns</li>
                     </span>
                 </Popup>
-
-                {/* <div className="skills"><h3 className="experience">My experience includes:</h3>
-                    <li>JavaScript</li> 
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>React.js</li>
-                    <li>MongoDB</li>
-                    <li>no-SQL databases</li>
-                    <li>Python</li>
-                    <li>C++</li>
-                    <li>Flask</li>
-                    <li>Django</li>
-                    <li>HTML</li>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>CSS3</li>
-                    <li>RESTful routes </li>
-                    <li>APIs</li>
-                    <li>Heroku deployment & similar</li>
-                    <li>JWT Web Tokens</li>
-                    <li>HTTP verbs</li>
-                    <li>MVC Patterns</li>
-                </div> */}
             </div>
+
+            <p className="resume-p">Click here to download my resume</p>
+            <form className="resume" method="get" action="https://drive.google.com/file/d/1lKA8mnPjCLNDh_hL8ye5CA8g51PYHZSY/view?usp=share_link" target="_blank">
+                <button type="submit">Moris Resume</button>
+            </form>
+
+
         </>
     )
 }

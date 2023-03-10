@@ -46,6 +46,19 @@ a:hover {
 
 
 /* about page */
+.resume-p{
+    color: ghostwhite;
+    position: absolute;
+    top: 60%;
+    left: 41%;
+}
+
+.resume{
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
 .me-photo{
     flex-wrap: wrap;
     padding: 10px;
