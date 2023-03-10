@@ -36,7 +36,7 @@ export default function About(){
 
             <p className="resume-p">Click here to download my resume</p>
             <form className="resume" method="get" action="https://drive.google.com/file/d/1lKA8mnPjCLNDh_hL8ye5CA8g51PYHZSY/view?usp=share_link" target="_blank">
-                <button type="submit">Moris Resume</button>
+                <button type="submit">My Resume</button>
             </form>
 
 
