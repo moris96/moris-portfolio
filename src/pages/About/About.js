@@ -11,9 +11,11 @@ export default function About(){
                 <Popup trigger={<button className="exp-btn">Experience & Skills</button>} position="right center">
                     <span className="skills">
                     <li>JavaScript</li> 
+                    <li>TypeScript</li> 
                     <li>Node.js</li>
                     <li>Express</li>
                     <li>React.js</li>
+                    <li>Angular.js</li> 
                     <li>MongoDB</li>
                     <li>no-SQL databases</li>
                     <li>Python</li>
