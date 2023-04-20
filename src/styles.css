@@ -1,11 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/nintendo-switch-ui');
-/* @import url('https://fonts.cdnfonts.com/css/press-start-2p'); */
 
 
 /* global vars */
 * {
     font-family: 'Nintendo Switch UI', sans-serif;
-    /* font-family: 'Press Start 2P', sans-serif; */
 }
 
 body {
