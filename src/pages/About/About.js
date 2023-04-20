@@ -1,15 +1,16 @@
 import Popup from "reactjs-popup";
+import styles from "./About.module.scss";
 
 export default function About(){
     return(
         <>
 
-            <div className="about-me">
-                <h1 className="hello">Hello, my name is Moris Khoudari</h1>
-                <img className="me-photo" alt="me" src={process.env.PUBLIC_URL+"/images/me.png"}/>
-                <h3 className="brand-statment">I am a Full-Stack Web Developer with strong JavaScript skills. I improve the workflow of my teams with my strong technical and leadership skills, and I am able to keep cool under pressure. My goal is to expand my knowledge and understanding of software engineering by learning more skills to add to my arsenal of technical skills, as well as helping others improve and making a positive impact on the world.</h3>
-                <Popup trigger={<button className="exp-btn">Experience & Skills</button>} position="right center">
-                    <span className="skills">
+            <div className={styles.aboutMe}>
+                <h1 className={styles.hello}>Hello, my name is Moris Khoudari</h1>
+                <img className={styles.mePhoto} alt="me" src={process.env.PUBLIC_URL+"/images/me.png"}/>
+                <h3 className={styles.brandStatment}>I am a Full-Stack Web Developer with strong JavaScript skills. I improve the workflow of my teams with my strong technical and leadership skills, and I am able to keep cool under pressure. My goal is to expand my knowledge and understanding of software engineering by learning more skills to add to my arsenal of technical skills, as well as helping others improve and making a positive impact on the world.</h3>
+                <Popup trigger={<button className={styles.expBtn}>Experience & Skills</button>} position="right center">
+                    <span className={styles.skills}>
                     <li>JavaScript</li> 
                     <li>TypeScript</li> 
                     <li>Node.js</li>
@@ -36,12 +37,12 @@ export default function About(){
                 </Popup>
             </div>
 
-            <p className="resume-p">Click here to download my resume</p>
-            <form className="resume" method="get" action="https://drive.google.com/file/d/1lKA8mnPjCLNDh_hL8ye5CA8g51PYHZSY/view?usp=share_link" target="_blank">
+            <p className={styles.resumeP}>Click here to download my resume</p>
+            <form className={styles.resume} method="get" action="https://drive.google.com/file/d/1lKA8mnPjCLNDh_hL8ye5CA8g51PYHZSY/view?usp=share_link" target="_blank">
                 <button type="submit">My Resume</button>
             </form>
 
 
         </>
-    )
-}
+    );
+};
