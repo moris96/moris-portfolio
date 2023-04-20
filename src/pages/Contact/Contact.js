@@ -10,8 +10,8 @@ export default function Contact(){
 
         <h1 className={styles.socials}>Socials</h1>
         <div className={styles.socials}>
-            <a className="linkden" href="https://www.linkedin.com/in/moris-khoudari-abady/" target="_blank">linkedin</a><br/>
-            <br/><a className="github" href="https://github.com/moris96" target="_blank">Github</a>
+            <a className={styles.linkden} href="https://www.linkedin.com/in/moris-khoudari-abady/" target="_blank">linkedin</a><br/>
+            <br/><a className={styles.github} href="https://github.com/moris96" target="_blank">Github</a>
 
         </div>
     </>
